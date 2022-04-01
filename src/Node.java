@@ -65,7 +65,7 @@ public class Node {
             if (child.getSize() < sizeLimit) {
                 continue;
             }
-            builder.append("  ".repeat(level) + child.toString());
+            builder.append("  ".repeat(level));
         }
         return builder.toString();
     }
